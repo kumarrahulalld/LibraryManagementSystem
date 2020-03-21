@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+  <connection>
+<str>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\ALONE BOY\source\repos\Library\Library\test.accdb</str>
+  </connection>
+  <email_info>
+<email>kumarrahul.allduniv@gmail.com</email>
+<password>Rm@0154772</password>
+  </email_info>
+  <depend>
+  <st>C:\string.xml</st>
+</depend>
+<form1>
+<form_name>Login_Page</form_name>
+    <institute_name>Institute of Professional Studies</institute_name>
+    <center_name>Center of Computer Education</center_name>
+    <groupbox_name>Login space</groupbox_name>
+    <id_label>User Id</id_label>
+    <password_label>User Password</password_label>
+    <login_button>Login Here</login_button>
+    <copyright>Copyright @ CCE , IPS 2019</copyright>
+</form1>
+<form2>
+<form_name>Librarian Dashboard</form_name>
+    <tab1>Books Section</tab1>
+    <tab2>Transaction Section</tab2>
+    <tab3> Record Section</tab3>
+    <tab4>Book Stats</tab4>
+    <tab5>Common Section</tab5>
+    <entry_button>Entry New Book</entry_button>
+    <remove_button>Remove a Book</remove_button>
+    <purchase_button>Purchase Request</purchase_button>
+    <issue_button>Issue Book</issue_button>
+    <renew_button>Renew Book</renew_button>
+    <return_button>Return Book</return_button>
+    <search_student>Search By Student</search_student>
+    <search_book>Search By Book</search_book>
+    <total_book>Total Books</total_book>
+    <allocated_book>Allocated Books</allocated_book>
+    <avialable_book>Remaining Books</avialable_book>
+    <promote_button>Promote</promote_button>
+    <report_button>Generate Rep.</report_button>
+</form2>
+<form3>
+<form_name>Work Space</form_name>
+    <book_bank_section>Book Bank Section</book_bank_section>
+    <book_bank_stu_sem>Semester</book_bank_stu_sem>
+    <book_bank_stu_name>Student Name</book_bank_stu_name>
+    <book_bank_name>Books</book_bank_name>
+    <book_bank_id>Book Id</book_bank_id>
+    <book_bank_button>Issue Bank</book_bank_button>
+    <reference_book_section>Reference Book Section</reference_book_section>
+    <reference_borrow_type>Select Type</reference_borrow_type>
+    <reference_stu_sem>Semester</reference_stu_sem>
+    <reference_stu_name>Name</reference_stu_name>
+    <reference_book_name>Select Book</reference_book_name>
+    <reference_book_id>Book id</reference_book_id>
+    <detail_book_id>Book Id</detail_book_id>
+    <detail_book_name>Book Name</detail_book_name>
+    <detail_book_author>Book Author</detail_book_author>
+    <detail_book_publisher>Book Publication</detail_book_publisher>
+    <reference_issue_button>Issue Book</reference_issue_button>
+</form3>
+<form4>
+<form_name>Delete Book</form_name>
+    <head_label>Delete a Book Here</head_label>
+    <delete_area>Deletion Process</delete_area>
+        <delete_book_id>Book Id</delete_book_id>
+    <delete_book_name>Book Name</delete_book_name>
+    <delete_book_author>Book Author</delete_book_author>
+    <delete_book_publisher>Book Publication</delete_book_publisher>
+    <enter_book_id>Enter Book Id</enter_book_id>
+    <find_book_details_button>Proceed</find_book_details_button>
+    <delete_button>Delete</delete_button>
+</form4>
+<form5>
+<form_name>Prchase Request</form_name>
+    <head_label>Delete a Book Here</head_label>
+    <purchase_book_name>Book Name</purchase_book_name>
+    <purchase_book_author>Author</purchase_book_author>
+    <purchase_book_publisher>Publisher</purchase_book_publisher>
+    <purchase_book_quantity>Quantity</purchase_book_quantity>
+    <purchase_button>Purchase</purchase_button>
+    <cancel_button>Cancel</cancel_button>
+</form5>
+<form8>
+<form_name>Remaining Books</form_name>
+    <head_label>All The Remaining Books</head_label>
+</form8>
+<form7>
+<form_name>Allocated Books</form_name>
+    <head_label>All The Allocated Books</head_label>
+</form7>
+<form6>
+<form_name>Total Books</form_name>
+    <head_label>All The Books</head_label>
+</form6>
+<form9>
+<form_name>return Book</form_name>
+    <return_area>Process Section</return_area>
+    <enter_id>Enter Book Id</enter_id>
+    <find_button>Proceed</find_button>
+    <details_stu_name>Student Name</details_stu_name>
+    <details_book_id>Book Id</details_book_id>
+    <details_book_name>Book Name</details_book_name>
+    <details_issue_date>Issue Date</details_issue_date>
+    <details_due_date>Due Date</details_due_date>
+    <return_button>Return</return_button>
+</form9>
+<form10>
+<form_name>Renew Book</form_name>
+     <renew_area>Process Section</renew_area>
+    <enter_id>Enter Book Id</enter_id>
+    <find_button>Proceed</find_button>
+    <details_stu_name>Student Name</details_stu_name>
+    <details_book_id>Book Id</details_book_id>
+    <details_book_name>Book Name</details_book_name>
+    <details_issue_date>Issue Date</details_issue_date>
+    <details_due_date>Due Date</details_due_date>
+    <renew_button>Renew</renew_button>
+</form10>
+<form11>
+<form_name>Add A New Book</form_name>
+       <head_label>Add a New Book Here</head_label>
+    <register_book_name>Book Name</register_book_name>
+    <register_book_author>Author</register_book_author>
+    <register_book_publisher>Publisher</register_book_publisher>
+    <register_book_id>Book Id</register_book_id>
+    <register_book_subject>Subject</register_book_subject>
+    <register_button>Register</register_button>
+    <cancel_button>Cancel</cancel_button>
+</form11>
+<form12>
+<form_name>Search By Student Data</form_name>
+    <head_label>Search Record of Student</head_label>
+    <search_user_type>Select Type</search_user_type>
+    <search_user_sem>Semester</search_user_sem>
+    <search_user_name>Name</search_user_name>
+    <search_user_status>Name</search_user_status>
+    <find_button>Find</find_button>
+</form12>
+<form13>
+<form_name>Search By Book Data</form_name>
+    <head_label>Search Book Record</head_label>
+    <select_book_name>Select Book</select_book_name>
+     <find_button>Find</find_button>
+</form13>
+ <form14>
+<form_name>Forgot Password</form_name>
+    <head_label>Password Recovery</head_label>
+     <user_id>Enter Your User Id Here</user_id>
+     <user_answer>Enter Your Answer Here</user_answer>
+     <id_button>Submit</id_button>
+     <answer_button>Show</answer_button>
+</form14>
+   <form15>
+<form_name>To Do List</form_name>
+    <head_label>Books To Be Collected Today</head_label>
+</form15>
+       <form16>
+<form_name>report Generation</form_name>
+    <transaction_report_label>Generate Transaction Excel Report Here</transaction_report_label>
+           <book_report_label>Generate Books Excel Report Here</book_report_label>
+           <student_report_label>Generate Students Excel Report Here</student_report_label>
+           <purchase_report_label>Generate Purchase Books Report Here</purchase_report_label>
+           <transaction_report_button>Generate</transaction_report_button>
+           <book_report_button>Generate</book_report_button>
+           <student_report_button>Generate</student_report_button>
+           <purchase_report_button>Generate</purchase_report_button>
+</form16>
+          <form17>
+<form_name>Promote Student</form_name>
+              <stu_sem>Semester</stu_sem>
+              <stu_name>Name</stu_name>
+              <promote_button>Promote</promote_button>
+</form17>
+  <form18>
+    <form_name></form_name>
+    <welcome_message>Welcome</welcome_message>
+    <user_button>User Mgmt</user_button>
+    <report_button>Reports</report_button>
+    <data_button>Data Mgmt</data_button>
+    <mail_button>Send Email</mail_button>
+    <record_button>Find Record</record_button>
+    <book_panel_head>Books</book_panel_head>
+    <user_panel_head>Users</user_panel_head>
+    <student_panel_head>Students</student_panel_head>
+    <teacher_panel_head>Teachers</teacher_panel_head>
+    <purchase_panel_head>Purchases</purchase_panel_head>
+    <today_panel_head>Today</today_panel_head>
+    <add_user_button>Add User</add_user_button>
+    <remove_user_button>Remove User</remove_user_button>
+    <find_stu_button>Student Data</find_stu_button>
+    <find_book_button>Book Record</find_book_button>
+  </form18>
+   <form19>
+    <form_name>Add User</form_name>
+     <user_id>User Id</user_id>
+     <user_password>User Password</user_password>
+     <hint_question>Hint Question</hint_question>
+     <hint_answer>Hint Answer</hint_answer>
+     <head_label>Add A User Here</head_label>
+     <add_button>Add</add_button>
+     <clear_button>Clear</clear_button>
+  </form19>
+   <form20>
+    <form_name>Remove User</form_name>
+     <head_label>Remove A User Here</head_label>
+     <select_user>Select A User</select_user>
+     <remove_button>Remove</remove_button>
+  </form20>
+     <form21>
+    <form_name>Data Management</form_name>
+       <head_label>Data Management Panel</head_label>
+       <select_table>Select A Table</select_table>
+  </form21>
+     <form22>
+    <form_name>Email Panel</form_name>
+       <head_label>Send An Email here</head_label>
+       <email_label>Email</email_label>
+       <subject_label>Subject</subject_label>
+       <message_label>Message</message_label>
+       <send_button>Send</send_button>
+       <clear_button>Clear</clear_button>
+       <attachment_button>Attachment</attachment_button>
+  </form22>
+   <form23>
+  <form_name>Student Record Update</form_name>
+     <head_label>Update student Record</head_label>
+     <sem_label>Select Semester</sem_label>
+     <stu_name_label>select Student Name</stu_name_label>
+     <name_label>Name</name_label>
+     <semester_label>Semester</semester_label>
+     <contact_label>Contact</contact_label>
+     <status_label>Status</status_label>
+     <update_button>Update</update_button>
+</form23>
+<form24>
+<form_name>Book Record Update</form_name>
+  <head_label>UpdateBook Record</head_label>
+  <book_label>Select Book</book_label>
+  <id_label>select Book Id</id_label>
+  <name_label>Name</name_label>
+  <tid_label>Id</tid_label>
+  <author_label>Author</author_label>
+  <publisher_label>Publisher</publisher_label>
+  <update_button>Update</update_button>
+</form24>
+<form25>
+<form_name>Password Management</form_name>
+    <head_label>Password Management Panel</head_label>
+    <search_user_type>Select Type</search_user_type>
+    <search_user_sem>Semester</search_user_sem>
+    <search_user_name>Name</search_user_name>
+    <search_user_task>Task</search_user_task>
+    <find_button>Find</find_button>
+</form25>
+<semester>
+<semester1>
+    <subject>
+<subject1>Discrete Mathematical Structures</subject1>
+    <subject2>Accounting And Financial Management</subject2>
+    <subject3>Digital Electronics And Computer Organization</subject3>
+    <subject4>Combinatorics And Graph Theory</subject4>
+    <subject5>C Programming</subject5>
+    <subject6>Linux And Shell Programming</subject6>
+        </subject>
+</semester1>
+<semester2>
+<subject1>Organizational Management and MIS</subject1>
+    <subject2>Data And File Structure Using C</subject2>
+    <subject3>Database Management System</subject3>
+    <subject4>Operating Systems</subject4>
+    <subject5>Object Oriented Methodology using C++</subject5>
+    <subject6>Theory of Computation</subject6>
+</semester2>
+<semester3>
+<subject1>Software Engineering And Case Tools</subject1>
+    <subject2>Design And Analysis of Algorithms</subject2>
+    <subject3>Web Technologies using JAVA</subject3>
+    <subject4>Computer Graphics</subject4>
+    <subject5>Numerical Methods</subject5>
+    <subject6>Advanced Computer Architecture</subject6>
+</semester3>
+<semester4>
+<subject1>.NET And C#</subject1>
+    <subject2>Multimedia Systems</subject2>
+    <subject3>Embedded Systems</subject3>
+    <subject4>Operation Research</subject4>
+    <subject5>System Programming</subject5>
+    <subject6>Data Communication And Networks</subject6>
+</semester4>
+<semester5>
+<subject1>Image Processing</subject1>
+    <subject2>Information Retrieval And Web Mining</subject2>
+    <subject3>Artificial Intelligence</subject3>
+    <subject4>Digital Communication</subject4>
+    <subject5>Secure Computing</subject5>
+</semester5>
+<semester6>
+<subject1>Mobile Computing and Applications</subject1>
+    <subject2>Android</subject2>
+</semester6>
+    </semester>
+    </form>
